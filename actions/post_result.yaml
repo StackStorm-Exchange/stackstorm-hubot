@@ -1,7 +1,7 @@
 ---
   name: "post_result"
   pack: hubot
-  runner_type: "run-python"
+  runner_type: "python-script"
   description: "Post an execution result to Hubot"
   enabled: true
   entry_point: "post_result.py"
