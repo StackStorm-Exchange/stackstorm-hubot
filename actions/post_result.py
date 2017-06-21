@@ -131,7 +131,7 @@ FORMATTERS = {
     # actionchainrunner
     'action-chain': format_actionchain_result,
     # pythonrunner
-    'python-script': format_pythonrunner_result,
+    'run-python': format_pythonrunner_result,
     'python-script': format_pythonrunner_result,
     # windowsrunner
     'windows-cmd': format_windowsrunner_result,
