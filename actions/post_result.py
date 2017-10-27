@@ -4,7 +4,7 @@ import requests
 import six
 from six.moves.urllib.parse import urljoin
 
-from st2actions.runners.pythonrunner import Action
+from st2common.runners.base_action import Action
 
 __all__ = [
     'PostResultAction'
