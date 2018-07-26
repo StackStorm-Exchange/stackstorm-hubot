@@ -1,3 +1,10 @@
+# WARNING!
+
+> Most people do not need this pack. If you want to use ChatOps with StackStorm, use the st2chatops package. This is installed by default with StackStorm.
+> It includes Hubot, wired up to StackStorm.
+> See docs.stackstorm.com/chatops/index.html for more about how to configure ChatOps.
+> Only install this pack if you are really sure you need it.
+
 # Hubot Integration Pack
 
 Pack that provides management/integration with Hubot
