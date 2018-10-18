@@ -1,6 +1,6 @@
 ---
 name: "restart"
-runner_type: "run-remote-script"
+runner_type: "remote-shell-script"
 description: "Restart hubot"
 enabled: true
 entry_point: "restart.sh"

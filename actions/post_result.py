@@ -135,7 +135,11 @@ FORMATTERS = {
     'python-script': format_pythonrunner_result,
     # windowsrunner
     'windows-cmd': format_windowsrunner_result,
-    'windows-script': format_windowsrunner_result
+    'windows-script': format_windowsrunner_result,
+    # winrm runner
+    'winrm-cmd': format_windowsrunner_result,
+    'winrm-ps-cmd': format_windowsrunner_result,
+    'winrm-ps-script': format_windowsrunner_result
 }
 
 
