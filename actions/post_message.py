@@ -1,5 +1,4 @@
 import json
-import httplib
 import requests
 from six.moves.urllib.parse import urljoin
 
@@ -35,7 +34,7 @@ class PostMessageAction(Action):
         data = json.dumps(body)
         response = requests.post(url=url, headers=headers, data=data)
 
-        if response.status_code == httplib.OK:
+        if response.status_code == requests.codes.ok: # pylint: disable=no-member
             self.logger.info('Message successfully posted')
         else:
             self.logger.exception('Failed to post message: %s' % (response.text))
