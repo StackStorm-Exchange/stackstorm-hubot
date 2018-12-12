@@ -1,6 +1,6 @@
 ---
 name: "update_ref"
-runner_type: "run-remote-script"
+runner_type: "remote-shell-script"
 description: "Manage Hubot installs on a per-pack basis"
 enabled: true
 entry_point: "update_ref.sh"
