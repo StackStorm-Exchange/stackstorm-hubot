@@ -1,5 +1,9 @@
 # Change Log
 
+# 0.5.0
+
+- Version bump to fix tagging issues
+
 # 0.4.0
 
 - Remove requests version restriction, remove use of httplib
