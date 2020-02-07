@@ -1,5 +1,10 @@
 # Change Log
 
+# 0.5.1
+
+- Add explicit support for Python 2 and 3
+
+
 # 0.5.0
 
 - Version bump to fix tagging issues
